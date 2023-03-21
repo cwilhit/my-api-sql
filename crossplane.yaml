@@ -20,3 +20,5 @@ spec:
   dependsOn:
     - provider: xpkg.upbound.io/upbound/provider-gcp
       version: ">=v0.27.0"
+    - configuration: xpkg.upbound.io/upbound/platform-ref-gcp
+      version: ">=v0.3.0"
